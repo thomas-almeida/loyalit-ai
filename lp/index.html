@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Trocchi&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -1103,7 +1104,6 @@
     .hero-stat { flex-direction: column; gap: 24px; }
     .afiliados-numbers { grid-template-columns: 1fr; }
     .footer-inner { flex-direction: column; align-items: flex-start; }
-    .how-visual { display: none; }
   }
 </style>
 </head>
@@ -1120,9 +1120,9 @@
   <div class="hero-glow"></div>
   <div class="hero-glow-2"></div>
 
-  <div class="badge">IA de fidelidade • Resultados em 24h</div>
+  <div class="badge">Você merece dormir em paz!</div>
 
-  <h1>Ele é fiel<em>?</em><br>Descubra<br>a verdade.</h1>
+  <h1 class="">Ele é fiel<em>?</em><br>Descubra<br>a verdade.</h1>
 
   <p class="hero-sub">Nossa IA testa a fidelidade do seu parceiro no Instagram sem que ele saiba. Você fica sabendo de tudo — na hora.</p>
 
@@ -1137,8 +1137,8 @@
       <span class="stat-label">Testes realizados</span>
     </div>
     <div class="stat-item">
-      <span class="stat-number">68%</span>
-      <span class="stat-label">Alguma red flag detectada</span>
+      <span class="stat-number">78%</span>
+      <span class="stat-label">Red flags detectadas</span>
     </div>
     <div class="stat-item">
       <span class="stat-number">4.9★</span>
@@ -1247,39 +1247,7 @@
       </div>
 
       <div class="how-visual">
-        <div class="phone-mock">
-          <div class="phone-header">
-            <div class="phone-avatar">S</div>
-            <div>
-              <div class="phone-name">Sofia ✨</div>
-              <div class="phone-status">● online</div>
-            </div>
-          </div>
-
-          <div class="chat-bubble us">
-            Oi! Adorei sua foto de ontem 😍 você foi onde?
-            <div class="chat-time">21:14 ✓✓</div>
-          </div>
-
-          <div class="chat-bubble them">
-            oi hahah, obg! fui num bar aqui perto com uns amigos
-            <div class="chat-time">21:16</div>
-          </div>
-
-          <div class="chat-bubble us">
-            que coincidência, adoro esse bar! a gente podia ir junto algum dia 🥂
-            <div class="chat-time">21:17 ✓✓</div>
-          </div>
-
-          <div class="chat-bubble them">
-            kkk sério?? ia ser bom demais
-            <div class="chat-time">21:18</div>
-          </div>
-
-          <div class="alert-box">
-            🚨 <span><strong>Red flag detectada.</strong> Sujeito aceitou convite de encontro sem mencionar relacionamento.</span>
-          </div>
-        </div>
+        <img src="img/instagram.png" alt="">
       </div>
     </div>
   </div>
@@ -1494,26 +1462,9 @@
   <div class="modal">
     <button class="modal-close" onclick="closeModal()">✕</button>
     <h2>Vamos começar</h2>
-    <p>Crie sua conta gratuita e escolha o plano na próxima tela. Sem cartão para cadastrar.</p>
-
-    <div class="form-group">
-      <label>Seu nome</label>
-      <input type="text" placeholder="Como posso te chamar?">
-    </div>
-
-    <div class="form-group">
-      <label>Seu e-mail</label>
-      <input type="email" placeholder="seu@email.com">
-    </div>
-
-    <div class="form-group">
-      <label>WhatsApp (para atualizações)</label>
-      <input type="tel" placeholder="(11) 99999-9999">
-    </div>
+    <p>Crie sua conta gratuita e escolha a forma de monitorar na próxima tela. Sem cartão para cadastrar.</p>
 
     <a href="#" class="btn-primary" style="display:block; text-align:center; margin-top:8px;">Criar conta grátis →</a>
-
-    <p class="modal-disclaimer">Ao criar conta você concorda com os termos de uso. Seus dados nunca serão compartilhados. O perfil da pessoa consultada é público no Instagram.</p>
   </div>
 </div>
 
